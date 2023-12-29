@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(31, 31, 31);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.btn {
+  padding: 10px 20px;
+  width: 120px;
+  height: 100px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  border: 1px solid white;
+  text-transform: capitalize;
+  font-weight: bold;
+  transition: all 0.3s ease-out;
+}
+
+.btn:active {
+  transform: scale(1.2);
+}
+
+.purple {
+  background-color: purple;
+}
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+.teal {
+  background-color: teal;
+}
